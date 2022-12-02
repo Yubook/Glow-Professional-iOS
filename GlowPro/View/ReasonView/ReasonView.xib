@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFProDisplay-Bold.ttf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+        <array key="SFProDisplay-Regular.ttf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReasonView" customModule="BarberDriver" customModuleProvider="target">
+            <connections>
+                <outlet property="lblPlaceholder" destination="qTq-qy-Uss" id="hzw-o9-ZUb"/>
+                <outlet property="txtView" destination="orS-uf-6gt" id="kXU-oj-evB"/>
+                <outlet property="view" destination="ExC-ol-xvd" id="ssA-jK-xef"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ExC-ol-xvd">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mcC-hn-jiT" customClass="KPRoundView" customModule="BarberDriver" customModuleProvider="target">
+                    <rect key="frame" x="24" y="172" width="327" height="468"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Reason" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rud-aI-TXt">
+                            <rect key="frame" x="108.66666666666666" y="25" width="110" height="20"/>
+                            <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e1J-Bj-HQW">
+                            <rect key="frame" x="24" y="65" width="279" height="28"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3i-j3-i4c">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="43E-Nq-LI9"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.1333333333" green="0.13725490200000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" image="ic_radio_round"/>
+                                    <state key="selected" image="ic_radio_btn"/>
+                                    <connections>
+                                        <action selector="btnRadioTapped:" destination="-1" eventType="touchUpInside" id="K60-O9-jfK"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMB-69-3iu">
+                                    <rect key="frame" x="50" y="5" width="189" height="18"/>
+                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="nMB-69-3iu" firstAttribute="centerY" secondItem="T3i-j3-i4c" secondAttribute="centerY" id="1dH-lJ-0Rf"/>
+                                <constraint firstAttribute="bottom" secondItem="T3i-j3-i4c" secondAttribute="bottom" id="3nw-LV-atM"/>
+                                <constraint firstItem="nMB-69-3iu" firstAttribute="leading" secondItem="T3i-j3-i4c" secondAttribute="trailing" id="7aa-a9-SO5"/>
+                                <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="nMB-69-3iu" secondAttribute="bottom" constant="5" id="ewN-uD-Urv"/>
+                                <constraint firstItem="T3i-j3-i4c" firstAttribute="leading" secondItem="e1J-Bj-HQW" secondAttribute="leading" id="inh-Q5-pbf"/>
+                                <constraint firstItem="nMB-69-3iu" firstAttribute="top" secondItem="e1J-Bj-HQW" secondAttribute="top" constant="5" id="oa3-TT-tZo"/>
+                                <constraint firstItem="T3i-j3-i4c" firstAttribute="top" secondItem="e1J-Bj-HQW" secondAttribute="top" id="owG-8e-HGD"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nMB-69-3iu" secondAttribute="trailing" constant="5" id="ukg-dh-KOK"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9NY-M6-XKf">
+                            <rect key="frame" x="24" y="113" width="279" height="28"/>
+                            <subviews>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Gb-CR-Utl">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="H0g-n8-3vS"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.1333333333" green="0.13725490200000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" image="ic_radio_round"/>
+                                    <state key="selected" image="ic_radio_btn"/>
+                                    <connections>
+                                        <action selector="btnRadioTapped:" destination="-1" eventType="touchUpInside" id="ivl-QQ-GLQ"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7B-p2-3LA">
+                                    <rect key="frame" x="50" y="5" width="189" height="18"/>
+                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="U7B-p2-3LA" firstAttribute="top" secondItem="9NY-M6-XKf" secondAttribute="top" constant="5" id="37H-MJ-hsp"/>
+                                <constraint firstItem="U7B-p2-3LA" firstAttribute="leading" secondItem="7Gb-CR-Utl" secondAttribute="trailing" id="5je-Up-peE"/>
+                                <constraint firstAttribute="bottom" secondItem="7Gb-CR-Utl" secondAttribute="bottom" id="Miw-xp-gom"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="U7B-p2-3LA" secondAttribute="trailing" constant="5" id="N8F-j2-Mdl"/>
+                                <constraint firstItem="U7B-p2-3LA" firstAttribute="centerY" secondItem="7Gb-CR-Utl" secondAttribute="centerY" id="Nv3-kg-NZd"/>
+                                <constraint firstItem="7Gb-CR-Utl" firstAttribute="leading" secondItem="9NY-M6-XKf" secondAttribute="leading" id="XSl-eq-Cag"/>
+                                <constraint firstItem="7Gb-CR-Utl" firstAttribute="top" secondItem="9NY-M6-XKf" secondAttribute="top" id="eLy-ZF-L1H"/>
+                                <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="U7B-p2-3LA" secondAttribute="bottom" constant="5" id="eY5-dj-7Ci"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mxz-y9-RRW">
+                            <rect key="frame" x="24" y="161" width="279" height="28"/>
+                            <subviews>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWJ-Yv-JT8">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="l9p-DX-JU4"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.1333333333" green="0.13725490200000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" image="ic_radio_round"/>
+                                    <state key="selected" image="ic_radio_btn"/>
+                                    <connections>
+                                        <action selector="btnRadioTapped:" destination="-1" eventType="touchUpInside" id="L7H-eI-Fzj"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKh-H4-vh0">
+                                    <rect key="frame" x="50" y="5" width="189" height="18"/>
+                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="MWJ-Yv-JT8" secondAttribute="bottom" id="0JS-Bb-x3D"/>
+                                <constraint firstItem="cKh-H4-vh0" firstAttribute="centerY" secondItem="MWJ-Yv-JT8" secondAttribute="centerY" id="Edn-qD-rrH"/>
+                                <constraint firstItem="MWJ-Yv-JT8" firstAttribute="leading" secondItem="Mxz-y9-RRW" secondAttribute="leading" id="VRW-k2-kUR"/>
+                                <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="cKh-H4-vh0" secondAttribute="bottom" constant="5" id="XD9-KF-YiY"/>
+                                <constraint firstItem="cKh-H4-vh0" firstAttribute="top" secondItem="Mxz-y9-RRW" secondAttribute="top" constant="5" id="fy7-oN-8qT"/>
+                                <constraint firstItem="cKh-H4-vh0" firstAttribute="leading" secondItem="MWJ-Yv-JT8" secondAttribute="trailing" id="xuc-3f-Hag"/>
+                                <constraint firstItem="MWJ-Yv-JT8" firstAttribute="top" secondItem="Mxz-y9-RRW" secondAttribute="top" id="ygh-OD-3nq"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cKh-H4-vh0" secondAttribute="trailing" constant="5" id="zcT-ET-A4P"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hd9-d9-758">
+                            <rect key="frame" x="24" y="209" width="279" height="28"/>
+                            <subviews>
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edn-ux-UFj">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="wYG-ai-0Ny"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.1333333333" green="0.13725490200000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" image="ic_radio_round"/>
+                                    <state key="selected" image="ic_radio_btn"/>
+                                    <connections>
+                                        <action selector="btnRadioTapped:" destination="-1" eventType="touchUpInside" id="Jhd-J3-0Tp"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply dummy" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puc-i4-lVp">
+                                    <rect key="frame" x="50" y="5" width="189" height="18"/>
+                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="puc-i4-lVp" firstAttribute="centerY" secondItem="edn-ux-UFj" secondAttribute="centerY" id="A6I-CC-Erh"/>
+                                <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="puc-i4-lVp" secondAttribute="bottom" constant="5" id="J2b-JS-CRh"/>
+                                <constraint firstItem="puc-i4-lVp" firstAttribute="leading" secondItem="edn-ux-UFj" secondAttribute="trailing" id="Kcj-zx-7J9"/>
+                                <constraint firstAttribute="bottom" secondItem="edn-ux-UFj" secondAttribute="bottom" id="NTr-4R-UQv"/>
+                                <constraint firstItem="edn-ux-UFj" firstAttribute="top" secondItem="hd9-d9-758" secondAttribute="top" id="Xvs-5h-pnW"/>
+                                <constraint firstItem="edn-ux-UFj" firstAttribute="leading" secondItem="hd9-d9-758" secondAttribute="leading" id="f3z-FE-tbQ"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="puc-i4-lVp" secondAttribute="trailing" constant="5" id="iM1-o5-1wJ"/>
+                                <constraint firstItem="puc-i4-lVp" firstAttribute="top" secondItem="hd9-d9-758" secondAttribute="top" constant="5" id="xY1-Do-rvf"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K9e-se-14X">
+                            <rect key="frame" x="24" y="257" width="279" height="28"/>
+                            <subviews>
+                                <button opaque="NO" tag="4" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AvY-1b-uZ6">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="wMx-sj-hzh"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.1333333333" green="0.13725490200000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" image="ic_radio_round"/>
+                                    <state key="selected" image="ic_radio_btn"/>
+                                    <connections>
+                                        <action selector="btnRadioTapped:" destination="-1" eventType="touchUpInside" id="k2g-L1-cuR"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACy-Zd-WhG">
+                                    <rect key="frame" x="50" y="5" width="36" height="18"/>
+                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="ACy-Zd-WhG" firstAttribute="top" secondItem="K9e-se-14X" secondAttribute="top" constant="5" id="FR5-oT-0L8"/>
+                                <constraint firstItem="ACy-Zd-WhG" firstAttribute="centerY" secondItem="AvY-1b-uZ6" secondAttribute="centerY" id="IxG-zX-PCV"/>
+                                <constraint firstItem="AvY-1b-uZ6" firstAttribute="leading" secondItem="K9e-se-14X" secondAttribute="leading" id="c0t-wo-Wzd"/>
+                                <constraint firstItem="ACy-Zd-WhG" firstAttribute="leading" secondItem="AvY-1b-uZ6" secondAttribute="trailing" id="cWH-Qb-3jO"/>
+                                <constraint firstAttribute="bottom" secondItem="AvY-1b-uZ6" secondAttribute="bottom" id="gaY-fh-Mx1"/>
+                                <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="ACy-Zd-WhG" secondAttribute="bottom" constant="5" id="uFL-rJ-OER"/>
+                                <constraint firstItem="AvY-1b-uZ6" firstAttribute="top" secondItem="K9e-se-14X" secondAttribute="top" id="uxZ-x2-nl8"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ACy-Zd-WhG" secondAttribute="trailing" constant="5" id="wZC-ab-273"/>
+                            </constraints>
+                        </view>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="orS-uf-6gt">
+                            <rect key="frame" x="15" y="305" width="297" height="100"/>
+                            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="gTz-Ju-ELz"/>
+                            </constraints>
+                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="try-et-j0L"/>
+                            </connections>
+                        </textView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comment" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTq-qy-Uss">
+                            <rect key="frame" x="30.000000000000004" y="320" width="58.333333333333343" height="17"/>
+                            <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="14"/>
+                            <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1j-Ky-2gB" customClass="KPRoundButton" customModule="BarberDriver" customModuleProvider="target">
+                            <rect key="frame" x="103.66666666666669" y="423" width="120" height="30"/>
+                            <color key="backgroundColor" red="0.1333333333" green="0.13725490200000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="jE9-4d-RXV"/>
+                                <constraint firstAttribute="width" secondItem="H1j-Ky-2gB" secondAttribute="height" multiplier="4:1" id="m2u-Dl-bgh"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="15"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Submit"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btnSubmitTapped:" destination="-1" eventType="touchUpInside" id="l5U-La-LtI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="orS-uf-6gt" firstAttribute="leading" secondItem="mcC-hn-jiT" secondAttribute="leading" constant="15" id="6vy-Do-dUB"/>
+                        <constraint firstAttribute="trailing" secondItem="e1J-Bj-HQW" secondAttribute="trailing" constant="24" id="AXJ-Ni-WMO"/>
+                        <constraint firstItem="Rud-aI-TXt" firstAttribute="centerX" secondItem="mcC-hn-jiT" secondAttribute="centerX" id="CBk-Wk-zho"/>
+                        <constraint firstItem="9NY-M6-XKf" firstAttribute="top" secondItem="e1J-Bj-HQW" secondAttribute="bottom" constant="20" id="DVg-qD-pOc"/>
+                        <constraint firstItem="orS-uf-6gt" firstAttribute="top" secondItem="K9e-se-14X" secondAttribute="bottom" constant="20" id="FCC-Vc-p8e"/>
+                        <constraint firstItem="H1j-Ky-2gB" firstAttribute="centerX" secondItem="mcC-hn-jiT" secondAttribute="centerX" id="HjT-hO-aSp"/>
+                        <constraint firstItem="hd9-d9-758" firstAttribute="trailing" secondItem="Mxz-y9-RRW" secondAttribute="trailing" id="NtI-fB-hEC"/>
+                        <constraint firstItem="Mxz-y9-RRW" firstAttribute="trailing" secondItem="9NY-M6-XKf" secondAttribute="trailing" id="QPT-LW-guV"/>
+                        <constraint firstItem="K9e-se-14X" firstAttribute="leading" secondItem="hd9-d9-758" secondAttribute="leading" id="RgZ-TS-Bxq"/>
+                        <constraint firstItem="Mxz-y9-RRW" firstAttribute="leading" secondItem="9NY-M6-XKf" secondAttribute="leading" id="Toc-Wb-yZK"/>
+                        <constraint firstItem="hd9-d9-758" firstAttribute="leading" secondItem="Mxz-y9-RRW" secondAttribute="leading" id="UG6-66-nEO"/>
+                        <constraint firstItem="hd9-d9-758" firstAttribute="top" secondItem="Mxz-y9-RRW" secondAttribute="bottom" constant="20" id="YnS-JN-mWX"/>
+                        <constraint firstItem="e1J-Bj-HQW" firstAttribute="leading" secondItem="mcC-hn-jiT" secondAttribute="leading" constant="24" id="Zay-Sd-xRv"/>
+                        <constraint firstAttribute="trailing" secondItem="orS-uf-6gt" secondAttribute="trailing" constant="15" id="cah-Z2-WbQ"/>
+                        <constraint firstItem="9NY-M6-XKf" firstAttribute="leading" secondItem="e1J-Bj-HQW" secondAttribute="leading" id="gbk-Ff-B04"/>
+                        <constraint firstItem="Rud-aI-TXt" firstAttribute="top" secondItem="mcC-hn-jiT" secondAttribute="top" constant="25" id="hQB-yp-wNQ"/>
+                        <constraint firstItem="e1J-Bj-HQW" firstAttribute="top" secondItem="Rud-aI-TXt" secondAttribute="bottom" constant="20" id="jeI-UP-SXc"/>
+                        <constraint firstItem="K9e-se-14X" firstAttribute="trailing" secondItem="hd9-d9-758" secondAttribute="trailing" id="k7q-Yj-DJJ"/>
+                        <constraint firstItem="qTq-qy-Uss" firstAttribute="top" secondItem="orS-uf-6gt" secondAttribute="top" constant="15" id="kZm-uF-qmn"/>
+                        <constraint firstItem="H1j-Ky-2gB" firstAttribute="top" secondItem="orS-uf-6gt" secondAttribute="bottom" constant="18" id="mBQ-dF-N14"/>
+                        <constraint firstItem="K9e-se-14X" firstAttribute="top" secondItem="hd9-d9-758" secondAttribute="bottom" constant="20" id="mn8-GT-Yzq"/>
+                        <constraint firstItem="9NY-M6-XKf" firstAttribute="trailing" secondItem="e1J-Bj-HQW" secondAttribute="trailing" id="tdU-Pf-yFI"/>
+                        <constraint firstItem="Mxz-y9-RRW" firstAttribute="top" secondItem="9NY-M6-XKf" secondAttribute="bottom" constant="20" id="vwR-TK-N8F"/>
+                        <constraint firstAttribute="bottom" secondItem="H1j-Ky-2gB" secondAttribute="bottom" constant="15" id="wJw-Po-O5O"/>
+                        <constraint firstItem="qTq-qy-Uss" firstAttribute="leading" secondItem="orS-uf-6gt" secondAttribute="leading" constant="15" id="wpw-pf-W7r"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                            <real key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.1333333333" green="0.13725490200000001" blue="0.1529411765" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="x7v-uh-x0B" firstAttribute="trailing" secondItem="mcC-hn-jiT" secondAttribute="trailing" constant="24" id="3Gc-v0-t7Z"/>
+                <constraint firstItem="mcC-hn-jiT" firstAttribute="leading" secondItem="x7v-uh-x0B" secondAttribute="leading" constant="24" id="8gC-rR-zlK"/>
+                <constraint firstItem="mcC-hn-jiT" firstAttribute="centerX" secondItem="ExC-ol-xvd" secondAttribute="centerX" id="Xj3-li-8Ig"/>
+                <constraint firstItem="mcC-hn-jiT" firstAttribute="centerY" secondItem="ExC-ol-xvd" secondAttribute="centerY" id="mUV-cr-COk"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="x7v-uh-x0B"/>
+            <point key="canvasLocation" x="172" y="55.418719211822662"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_radio_btn" width="20.666666030883789" height="20.666666030883789"/>
+        <image name="ic_radio_round" width="20.666666030883789" height="20.666666030883789"/>
+    </resources>
+</document>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0BDD1E66-273B-4172-A9A1-BFD20BC0535C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B32D6F0-9C92-4BD6-930E-EB689A82452A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GlowPro/Classes/OTP/OtpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
+            landmarkName = "loginDriver()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B32D6F0-9C92-4BD6-930E-EB689A82452A - 4a75a60f6f5b27e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GlowPro.OtpVC.loginDriver() -&gt; ()"
+                  moduleName = "GlowPro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mutipz/Documents/Fade_Latest/Glow/driver/GlowPro/Classes/OTP/OtpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "5B32D6F0-9C92-4BD6-930E-EB689A82452A - cb4ef60c6be602aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Any&gt;, Swift.Int) -&gt; () in GlowPro.OtpVC.loginDriver() -&gt; ()"
+                  moduleName = "GlowPro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mutipz/Documents/Fade_Latest/Glow/driver/GlowPro/Classes/OTP/OtpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "219">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C59295F6-71EE-47F4-8FF5-DD5DE52D5A7B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GlowPro/Classes/OTP/OtpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "verifyCode()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C59295F6-71EE-47F4-8FF5-DD5DE52D5A7B - 706c5a9c9b1486b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GlowPro.OtpVC.verifyCode() -&gt; ()"
+                  moduleName = "GlowPro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mutipz/Documents/Fade_Latest/Glow/driver/GlowPro/Classes/OTP/OtpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "592">
+               </Location>
+               <Location
+                  uuid = "C59295F6-71EE-47F4-8FF5-DD5DE52D5A7B - 5d673da7031ffa9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GlowPro.OtpVC.verifyCode() -&gt; ()"
+                  moduleName = "GlowPro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mutipz/Documents/Fade_Latest/Glow/driver/GlowPro/Classes/OTP/OtpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "113">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F528523B-B2F0-4710-B4FD-39A0E0F6DE23"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GlowPro/Classes/OTP/OtpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "sendOTP()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F528523B-B2F0-4710-B4FD-39A0E0F6DE23 - 83ab3f8fd290000d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GlowPro.OtpVC.sendOTP() -&gt; ()"
+                  moduleName = "GlowPro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mutipz/Documents/Fade_Latest/Glow/driver/GlowPro/Classes/OTP/OtpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "F528523B-B2F0-4710-B4FD-39A0E0F6DE23 - 4752b0efff446ce9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GlowPro.OtpVC.sendOTP() -&gt; ()"
+                  moduleName = "GlowPro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mutipz/Documents/Fade_Latest/Glow/driver/GlowPro/Classes/OTP/OtpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "325">
+               </Location>
+               <Location
+                  uuid = "F528523B-B2F0-4710-B4FD-39A0E0F6DE23 - 38bf3f8fc57caf9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GlowPro.OtpVC.sendOTP() -&gt; ()"
+                  moduleName = "GlowPro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mutipz/Documents/Fade_Latest/Glow/driver/GlowPro/Classes/OTP/OtpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0ACB5D0F-5D2B-417A-A280-580AC041460F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GlowPro/Classes/OTP/OtpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "verifyCode()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5720BDC-50AD-41BC-AB21-AD4B6709C78F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GlowPro/Classes/OTP/OtpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "paramDriverLoginDict()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2F2EECD-96EE-4575-8BDB-F5B20B4A0F61"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GlowPro/Classes/OTP/OtpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "loginDriver()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C2F2EECD-96EE-4575-8BDB-F5B20B4A0F61 - cb4ef60c6be60237"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Any&gt;, Swift.Int) -&gt; () in GlowPro.OtpVC.loginDriver() -&gt; ()"
+                  moduleName = "GlowPro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mutipz/Documents/Fade_Latest/Glow/driver/GlowPro/Classes/OTP/OtpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "361">
+               </Location>
+               <Location
+                  uuid = "C2F2EECD-96EE-4575-8BDB-F5B20B4A0F61 - cb4ef60c6be60237"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Any&gt;, Swift.Int) -&gt; () in GlowPro.OtpVC.loginDriver() -&gt; ()"
+                  moduleName = "GlowPro"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mutipz/Documents/Fade_Latest/Glow/driver/GlowPro/Classes/OTP/OtpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "570">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2AFA17B-2BE3-4845-A922-7D5BEA124D76"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GlowPro/Classes/OTP/OtpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "loginDriver()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
